@@ -16,6 +16,23 @@ public class Employees {
         this.payRate = payRate;
     }
     // Getters
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public double getPayRate() {
+        return payRate;
+    }
+
     //Setters
     // Ending method for gross pay
 }
