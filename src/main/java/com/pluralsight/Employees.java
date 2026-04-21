@@ -34,5 +34,22 @@ public class Employees {
     }
 
     //Setters
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHoursWorked(int hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
+    public void setPayRate(double payRate) {
+        this.payRate = payRate;
+    }
+
     // Ending method for gross pay
 }
