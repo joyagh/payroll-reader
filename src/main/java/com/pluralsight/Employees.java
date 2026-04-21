@@ -9,6 +9,12 @@ public class Employees {
     private double payRate;
 
     //Create employee Constructor
+    public Employees(int id, String name, int hoursWorked, double payRate){
+        this.id = id;
+        this.name = name;
+        this.hoursWorked = hoursWorked;
+        this.payRate = payRate;
+    }
     // Getters
     //Setters
     // Ending method for gross pay
