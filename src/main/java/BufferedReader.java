@@ -1,6 +1,8 @@
 public class BufferedReader {
     public static void main(String[] args) {
         //File reafder
+        String fileName = "employees.csv";
+
         // Open file
         //Read file with buffer
         //Variable to hold lines
