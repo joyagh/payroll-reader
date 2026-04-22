@@ -15,6 +15,7 @@ public class PayrollReader {
             //Read file with buffer
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             //Variable to hold lines
+            String input;
             // While loop to keep reading while lnes are true
             // Store each line part into variables
             // New employee object
