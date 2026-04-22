@@ -17,6 +17,9 @@ public class PayrollReader {
             //Variable to hold lines
             String input;
             // While loop to keep reading while lnes are true
+            while(input = bufferedReader.readLine()) =! null){
+
+            }
             // Store each line part into variables
             // New employee object
             // Print New Onject
