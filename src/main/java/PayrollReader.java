@@ -1,3 +1,4 @@
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -12,6 +13,7 @@ public class PayrollReader {
             FileReader fileReader = new FileReader(fileName);
 
             //Read file with buffer
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
             //Variable to hold lines
             // While loop to keep reading while lnes are true
             // Store each line part into variables
