@@ -5,11 +5,11 @@ public class Employees {
     // Create employee Object
     private int id;
     private String name;
-    private int hoursWorked;
+    private double hoursWorked;
     private double payRate;
 
     //Create employee Constructor
-    public Employees(int id, String name, int hoursWorked, double payRate){
+    public Employees(int id, String name, double hoursWorked, double payRate){
         this.id = id;
         this.name = name;
         this.hoursWorked = hoursWorked;
@@ -25,7 +25,7 @@ public class Employees {
         return name;
     }
 
-    public int getHoursWorked() {
+    public double getHoursWorked() {
         return hoursWorked;
     }
 
@@ -43,7 +43,7 @@ public class Employees {
         this.name = name;
     }
 
-    public void setHoursWorked(int hoursWorked) {
+    public void setHoursWorked(double hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
 
@@ -52,6 +52,9 @@ public class Employees {
     }
 
     // Ending method for gross pay
+    public double getGrossPay(){
+        return hoursWorked * payRate;
+    }
 
 
 

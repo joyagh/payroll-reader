@@ -23,6 +23,15 @@ public class PayrollReader {
                 String name = splitData[1];
                 double hoursWorked = Double.parseDouble(splitData[2]);
                 double payRate = Double.parseDouble(splitData[3]);
+
+                Employees employee = new Employees(id,name, hoursWorked, payRate);
+
+                System.out.printf("ID: %d| Name: %s| Gross Pay: $%f\n",
+                        employee.getId(),
+                        employee.getName(),
+                        employee.getGrossPay());
+                ;
+
             }
             bufferedReader.close();
         } catch(FileNotFoundException e) {
