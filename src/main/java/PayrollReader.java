@@ -1,3 +1,4 @@
+import java.io.FileReader;
 import java.io.IOException;
 
 public class PayrollReader {
@@ -8,6 +9,7 @@ public class PayrollReader {
         try {
 
             // Open file
+            FileReader fileReader = new FileReader(fileName);
 
             //Read file with buffer
             //Variable to hold lines
